@@ -1,6 +1,6 @@
 #Максим Янученя, 18-я когорта — Финальный проект. Инженер по тестированию плюс
 import data
-import sender_stand_re
+import sender_stand_request
 
 def test_order_create():
     response = sender_stand_request.create_order(data.order_body)
